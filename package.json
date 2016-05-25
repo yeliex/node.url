@@ -1,0 +1,24 @@
+{
+  "name": "node.url",
+  "version": "1.0.0",
+  "description": "url parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeliex/node.url.git"
+  },
+  "keywords": [
+    "node",
+    "url",
+    "paraser"
+  ],
+  "author": "yeliex",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yeliex/node.url/issues"
+  },
+  "homepage": "https://github.com/yeliex/node.url#readme"
+}
