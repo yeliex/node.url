@@ -4,7 +4,7 @@
 
 const parserUrl = function (url) {
     var that = require("url").parse(url);
-    that.params = (function (query) {
+    that.params = (!that.query) ? {} : (function (query) {
         var list = {};
         for (let items of query) {
             item = items.split("=");
