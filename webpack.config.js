@@ -12,7 +12,8 @@ module.exports = {
   },
   output: {
     path: require('path').join(__dirname, '/dist'),
-    filename: "[name].js"
+    filename: "[name].js",
+    libraryTarget: "umd",
   },
   module: {
     loaders: [
