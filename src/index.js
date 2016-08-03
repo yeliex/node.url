@@ -22,6 +22,3 @@ String.prototype.parseUrl = function () {
 if (typeof module === 'object') {
   module.exports = parserUrl;
 }
-if (typeof window === 'object') {
-  window.Wechat = parserUrl;
-}
