@@ -7,7 +7,7 @@ const parserUrl = function (url) {
   that.params = (!that.query) ? {} : (function (query) {
     var list = {};
     for (let items of query) {
-      item = items.split("=");
+      const item = items.split("=");
       list[item[0]] = item[1];
     }
     return list;
