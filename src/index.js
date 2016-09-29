@@ -1,15 +1,11 @@
-/**
- * Created by yeliex on 16/5/25.
- */
-
 const parserUrl = function (url) {
-  var that = require("url").parse(url);
+  const that = require("url").parse(url);
   that.params = (!that.query) ? {} : (function (query) {
-    var list = {};
-    for (let items of query) {
+    const list = {};
+    query.forEach((items) => {
       const item = items.split("=");
       list[item[0]] = item[1];
-    }
+    });
     return list;
   }(that.query.split("&")));
   return that;

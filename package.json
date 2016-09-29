@@ -1,6 +1,6 @@
 {
   "name": "node.url",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "url parser",
   "main": "dist/index.js",
   "files": [
