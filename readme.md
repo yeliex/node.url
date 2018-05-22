@@ -1,5 +1,7 @@
 # node.url
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/yeliex/node.url.svg)](https://greenkeeper.io/)
+
 [![npm](https://img.shields.io/npm/v/node.url.svg?style=flat-square)](https://www.npmjs.com/package/node.url)
 
 url paraser for javascript
